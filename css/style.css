@@ -67,3 +67,42 @@ body.fotos #navegacao a#fotos {
     cursor: text;
 }
 
+/* Estrutura */
+
+#conteudo {
+    margin-top: 10px;
+    background: #b4b3b3
+}
+
+#conteudo-primario {
+    width: 300px;
+    float: left;
+    margin: 0 0 20px 225px;
+}
+
+#conteudo-secundario {
+    width: 300px;
+    float: left;
+    margin: 0 0 20px 25px;
+}
+
+#conteudo-lateral {
+    width: 200px;
+    float: left;
+    margin: 0 0 20px -850px;
+}
+
+
+/* RODAPÉ */
+
+#container-rodape {
+    background: #294c71;
+    padding: 22px;
+}
+
+#rodape {
+    width: 850px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
