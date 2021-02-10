@@ -8,7 +8,7 @@
     <title>Notícias Cidade - Seu site de notícias</title>
 </head>
 
-<body class="home">
+<body id="tres-colunas" class="home">
     <!--Início container-->
     <div id="container">
 
@@ -42,8 +42,43 @@
 
         <div id="conteudo">
             <div id="conteudo-primario">Primario</div>
+
             <div id="conteudo-secundario">Secundario</div>
-            <div id="conteudo-lateral">Lateral</div>
+
+            <div id="conteudo-lateral"><!-- começo lateral -->
+
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li><a href="">Antony</a></li>
+                            <li><a href="">João</a></li>
+                            <li><a href="">Maria</a></li>
+                            <li><a href="">Giovana</a></li>
+                            <li><a href="">Matheus</a></li>
+                            <li><a href="">Juliana</a></li>
+                            <li><a href="">Ana</a></li>
+                            <li><a href="">Gabriel</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <h2>News</h2>
+                    <div class="caixa-conteudo">
+                        <form>
+                            <div>
+                                <label for="email">E-mail:</label>
+                                <input type="text" name="email" id="email" placeholder="Digite seu e-mail">
+                            </div>
+                            <div>
+                                <input class="submit" type="submit" name="Cadastrar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+            </div><!-- fim lateral -->
         </div>
 
     </div>
@@ -51,7 +86,7 @@
 
     <div id="container-rodape" style="clear: both;">
         <div id="rodape">
-            &copy; Copyright 2020-2021 - Matheus dos Reis
+            &copy; Copyright 2020-2021 Matheus dos Reis
         </div>
     </div>
 

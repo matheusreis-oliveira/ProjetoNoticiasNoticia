@@ -19,6 +19,12 @@ body {
     padding-top: 25px;
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 /**LOGO TOPO**/
 
 .logo {
@@ -74,10 +80,28 @@ body.fotos #navegacao a#fotos {
     background: #b4b3b3
 }
 
-#conteudo-primario {
+#conteudo-lateral {
+    width: 200px;
+    float: left;
+    margin: 0 0 20px -850px;
+}
+
+#tres-colunas #conteudo-primario {
     width: 300px;
     float: left;
     margin: 0 0 20px 225px;
+}
+
+#duas-colunas #conteudo-primario {
+    width: 625px;
+    float: left;
+    margin: 0 0 20px 225px;
+}
+
+#uma-colunas #conteudo-primario {
+    width: 850px;
+    float: left;
+    margin: 0 0 20px 0;
 }
 
 #conteudo-secundario {
@@ -86,12 +110,66 @@ body.fotos #navegacao a#fotos {
     margin: 0 0 20px 25px;
 }
 
-#conteudo-lateral {
-    width: 200px;
-    float: left;
-    margin: 0 0 20px -850px;
+/* CAIXA */
+
+.caixa {
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../img/fundo-caixa.png) ;
 }
 
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+h2 {
+    font-size: 1.2em;
+    background: #294c71;
+    color: #ffff;
+    padding: 5px;
+}
+
+/* MENU LATERAL */
+
+#conteudo-lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#conteudo-lateral ul a:hover{
+    background: #f9f9f9 url(../img/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+/* FORMULARIOS */
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background: #fff;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    margin: 2px;
+}
 
 /* RODAPÉ */
 
